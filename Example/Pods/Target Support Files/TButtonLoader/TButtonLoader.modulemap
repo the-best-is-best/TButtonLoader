@@ -1,0 +1,6 @@
+framework module TButtonLoader {
+  umbrella header "TButtonLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}

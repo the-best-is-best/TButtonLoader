@@ -1,0 +1,16 @@
+PODS:
+  - TButtonLoader (0.1.0)
+
+DEPENDENCIES:
+  - TButtonLoader (from `../`)
+
+EXTERNAL SOURCES:
+  TButtonLoader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TButtonLoader: a1e9c6b85ce399d351e069f165ffb51973be4d57
+
+PODFILE CHECKSUM: 90fb2ec5ac178914120db7d790aa0291b1c20d20
+
+COCOAPODS: 1.15.2

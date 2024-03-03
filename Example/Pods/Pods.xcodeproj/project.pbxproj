@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0F212D678296788D47206A6D095207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4EBE7C9C9AB5AF0119428155B838EA6B /* Pods-TButtonLoader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 634C19DB228FB882D2A8BA23FC5B72E8 /* Pods-TButtonLoader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5279D92FB2E0A5342DD66FF38BA28189 /* Pods-TButtonLoader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 236608E62426FBF4AC22247410024FED /* Pods-TButtonLoader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		570DDD7A80D60DB70170F65A79D07119 /* Pods-TButtonLoader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 920185D52D4B585469703AEBF2CB93D4 /* Pods-TButtonLoader_Tests-dummy.m */; };
+		60322CE874A486E5AEF91B5580FE0313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		73297D2447FF858CDFD5FADA31E37D64 /* TButtonLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E4F67FB3535359203FD5AB0D61BEAD /* TButtonLoader-dummy.m */; };
+		7A75F60390FD5414C4617B9DC4877D30 /* Pods-TButtonLoader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FE17CCAFAA2D19DF6051D1419C926C /* Pods-TButtonLoader_Example-dummy.m */; };
+		98DBBC292B6FBBEC3B2ADE8FA91CDB4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BF93E7B5CD1D852F26C86A8602F5E120 /* TButtonLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000C4E5F0F7CB8C1BEDD9886C560B193 /* TButtonLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF07D2D22B94F997003331AE /* ButtonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07D2D12B94F997003331AE /* ButtonLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74ECF1671325EDC9909E1ED499E2B6E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554EDF2944C8E142425956731D0732AD;
+			remoteInfo = "Pods-TButtonLoader_Example";
+		};
+		8E11A9BC3AC39EF2D6DA4C091B31A427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE5D3D75D6EE8DFD9210141361C2FAF6;
+			remoteInfo = TButtonLoader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000C4E5F0F7CB8C1BEDD9886C560B193 /* TButtonLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TButtonLoader-umbrella.h"; sourceTree = "<group>"; };
+		0EA2070E32C7EC0363698FAB002A0645 /* Pods-TButtonLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TButtonLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		223323C26177FC916DFCA79C34E22776 /* Pods-TButtonLoader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TButtonLoader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2314797782E57BAC550B1F62BF8FC640 /* Pods-TButtonLoader_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TButtonLoader_Example-Info.plist"; sourceTree = "<group>"; };
+		236608E62426FBF4AC22247410024FED /* Pods-TButtonLoader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TButtonLoader_Example-umbrella.h"; sourceTree = "<group>"; };
+		25FE17CCAFAA2D19DF6051D1419C926C /* Pods-TButtonLoader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TButtonLoader_Example-dummy.m"; sourceTree = "<group>"; };
+		313C23A61EE12C4473FEEF0316463DB7 /* Pods_TButtonLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TButtonLoader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A11929C11335DABF5ED9CAE1F98139 /* Pods-TButtonLoader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TButtonLoader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E3FDDA717F401CB6C1FA26F95B4DDB3 /* TButtonLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TButtonLoader.debug.xcconfig; sourceTree = "<group>"; };
+		5EF88AA7D6D2EC9ACF5A1DB6D63EEACA /* Pods-TButtonLoader_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TButtonLoader_Tests-Info.plist"; sourceTree = "<group>"; };
+		634C19DB228FB882D2A8BA23FC5B72E8 /* Pods-TButtonLoader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TButtonLoader_Tests-umbrella.h"; sourceTree = "<group>"; };
+		69CEDEA4760FAC4677ABB7341A484852 /* TButtonLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TButtonLoader.release.xcconfig; sourceTree = "<group>"; };
+		6DA43FC8D58C364CB78265B551347D31 /* Pods-TButtonLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TButtonLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		743CF88A00D96C9AA646F61E5C9B66FC /* TButtonLoader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TButtonLoader.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		8D0567A711EF8BB22C5F1F5A8CAF58D5 /* Pods-TButtonLoader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TButtonLoader_Example.modulemap"; sourceTree = "<group>"; };
+		920185D52D4B585469703AEBF2CB93D4 /* Pods-TButtonLoader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TButtonLoader_Tests-dummy.m"; sourceTree = "<group>"; };
+		94863324F504997D8EF6727F0CC49526 /* TButtonLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TButtonLoader.modulemap; sourceTree = "<group>"; };
+		97B4C40CE60E6FC231737CEBB898F817 /* TButtonLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TButtonLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3E4F67FB3535359203FD5AB0D61BEAD /* TButtonLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TButtonLoader-dummy.m"; sourceTree = "<group>"; };
+		A53A900CFA139307465FDF41A1DF9711 /* Pods-TButtonLoader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TButtonLoader_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AB042471FF86686754311F3C543F1758 /* Pods-TButtonLoader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TButtonLoader_Tests.modulemap"; sourceTree = "<group>"; };
+		BE625752DE21581E60DE4D32B02EE6DF /* TButtonLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TButtonLoader-prefix.pch"; sourceTree = "<group>"; };
+		C8497CBA1037171088D9DCF80F19DBAE /* Pods-TButtonLoader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TButtonLoader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCD139BC2E96D203282E3156BB429F03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CF9C8998B6B1E603B49299111BC4A7C6 /* Pods-TButtonLoader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TButtonLoader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB418A676E0568597B4EFDDBE04C4DD5 /* Pods-TButtonLoader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TButtonLoader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF07D2D12B94F997003331AE /* ButtonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ButtonLoader.swift; path = TButtonLoader/Classes/ButtonLoader.swift; sourceTree = "<group>"; };
+		F478D44D431D121B965A3F8B7CDC33BD /* TButtonLoader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TButtonLoader-Info.plist"; sourceTree = "<group>"; };
+		F5F2F31A9E2C244938E6E7C2AFE7B811 /* Pods-TButtonLoader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TButtonLoader_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FB6C87C9E4AAF2DFBC263CA5D191E205 /* Pods_TButtonLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TButtonLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB957EB849ECDEF568D26DB59C72A1C3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1C966AB85FEB94F8A97A188ADC5546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DBBC292B6FBBEC3B2ADE8FA91CDB4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8187FF9C263B4CD307DEFAE396D2965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0F212D678296788D47206A6D095207 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FB131AE6EA7D375711B33CF8B38BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60322CE874A486E5AEF91B5580FE0313 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05714A2976811A981365A06845BB88DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB6C87C9E4AAF2DFBC263CA5D191E205 /* Pods_TButtonLoader_Example.framework */,
+				313C23A61EE12C4473FEEF0316463DB7 /* Pods_TButtonLoader_Tests.framework */,
+				97B4C40CE60E6FC231737CEBB898F817 /* TButtonLoader.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09200D59627E7723D8552306ACED204F /* Pods-TButtonLoader_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AB042471FF86686754311F3C543F1758 /* Pods-TButtonLoader_Tests.modulemap */,
+				CF9C8998B6B1E603B49299111BC4A7C6 /* Pods-TButtonLoader_Tests-acknowledgements.markdown */,
+				DB418A676E0568597B4EFDDBE04C4DD5 /* Pods-TButtonLoader_Tests-acknowledgements.plist */,
+				920185D52D4B585469703AEBF2CB93D4 /* Pods-TButtonLoader_Tests-dummy.m */,
+				5EF88AA7D6D2EC9ACF5A1DB6D63EEACA /* Pods-TButtonLoader_Tests-Info.plist */,
+				634C19DB228FB882D2A8BA23FC5B72E8 /* Pods-TButtonLoader_Tests-umbrella.h */,
+				58A11929C11335DABF5ED9CAE1F98139 /* Pods-TButtonLoader_Tests.debug.xcconfig */,
+				F5F2F31A9E2C244938E6E7C2AFE7B811 /* Pods-TButtonLoader_Tests.release.xcconfig */,
+			);
+			name = "Pods-TButtonLoader_Tests";
+			path = "Target Support Files/Pods-TButtonLoader_Tests";
+			sourceTree = "<group>";
+		};
+		28E3027558FDE312425249E11BA65FB8 /* Pods-TButtonLoader_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8D0567A711EF8BB22C5F1F5A8CAF58D5 /* Pods-TButtonLoader_Example.modulemap */,
+				C8497CBA1037171088D9DCF80F19DBAE /* Pods-TButtonLoader_Example-acknowledgements.markdown */,
+				223323C26177FC916DFCA79C34E22776 /* Pods-TButtonLoader_Example-acknowledgements.plist */,
+				25FE17CCAFAA2D19DF6051D1419C926C /* Pods-TButtonLoader_Example-dummy.m */,
+				A53A900CFA139307465FDF41A1DF9711 /* Pods-TButtonLoader_Example-frameworks.sh */,
+				2314797782E57BAC550B1F62BF8FC640 /* Pods-TButtonLoader_Example-Info.plist */,
+				236608E62426FBF4AC22247410024FED /* Pods-TButtonLoader_Example-umbrella.h */,
+				0EA2070E32C7EC0363698FAB002A0645 /* Pods-TButtonLoader_Example.debug.xcconfig */,
+				6DA43FC8D58C364CB78265B551347D31 /* Pods-TButtonLoader_Example.release.xcconfig */,
+			);
+			name = "Pods-TButtonLoader_Example";
+			path = "Target Support Files/Pods-TButtonLoader_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F62B8B1D8B8426BCEFC38014CD06946 /* TButtonLoader */ = {
+			isa = PBXGroup;
+			children = (
+				FDDBB4254743EBD5296142018DA559A5 /* Pod */,
+				E2FC1E90616C046B3AA4F9E684E10F6C /* Support Files */,
+			);
+			name = TButtonLoader;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		71FDD6FE52848EE5B75BC4A384A7BEB4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F62B8B1D8B8426BCEFC38014CD06946 /* TButtonLoader */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		89E79F341955182D21647464D9008272 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E3027558FDE312425249E11BA65FB8 /* Pods-TButtonLoader_Example */,
+				09200D59627E7723D8552306ACED204F /* Pods-TButtonLoader_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				71FDD6FE52848EE5B75BC4A384A7BEB4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				05714A2976811A981365A06845BB88DD /* Products */,
+				89E79F341955182D21647464D9008272 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2FC1E90616C046B3AA4F9E684E10F6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94863324F504997D8EF6727F0CC49526 /* TButtonLoader.modulemap */,
+				A3E4F67FB3535359203FD5AB0D61BEAD /* TButtonLoader-dummy.m */,
+				F478D44D431D121B965A3F8B7CDC33BD /* TButtonLoader-Info.plist */,
+				BE625752DE21581E60DE4D32B02EE6DF /* TButtonLoader-prefix.pch */,
+				000C4E5F0F7CB8C1BEDD9886C560B193 /* TButtonLoader-umbrella.h */,
+				5E3FDDA717F401CB6C1FA26F95B4DDB3 /* TButtonLoader.debug.xcconfig */,
+				69CEDEA4760FAC4677ABB7341A484852 /* TButtonLoader.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TButtonLoader";
+			sourceTree = "<group>";
+		};
+		FDDBB4254743EBD5296142018DA559A5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CCD139BC2E96D203282E3156BB429F03 /* LICENSE */,
+				FB957EB849ECDEF568D26DB59C72A1C3 /* README.md */,
+				743CF88A00D96C9AA646F61E5C9B66FC /* TButtonLoader.podspec */,
+				DF07D2D12B94F997003331AE /* ButtonLoader.swift */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B11674067B1A667C3DBEED49281E886 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBE7C9C9AB5AF0119428155B838EA6B /* Pods-TButtonLoader_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340D0E02B09328D25EB9A682FDB6604D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5279D92FB2E0A5342DD66FF38BA28189 /* Pods-TButtonLoader_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70438B2D287D26FDFC0D89AE5BC47A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF93E7B5CD1D852F26C86A8602F5E120 /* TButtonLoader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36A89CBA732A2D6263FF6E7DA61BF911 /* Pods-TButtonLoader_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F87BA0F9E6DFEFDCCD620BC8BAF8C7 /* Build configuration list for PBXNativeTarget "Pods-TButtonLoader_Tests" */;
+			buildPhases = (
+				0B11674067B1A667C3DBEED49281E886 /* Headers */,
+				57A213D1FC6FCBC2946267493F97ED99 /* Sources */,
+				B8187FF9C263B4CD307DEFAE396D2965 /* Frameworks */,
+				3C1F804775DC3D326988883EF9EAB398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94F94F498CDE19A7215F4D6D04CE899 /* PBXTargetDependency */,
+			);
+			name = "Pods-TButtonLoader_Tests";
+			productName = Pods_TButtonLoader_Tests;
+			productReference = 313C23A61EE12C4473FEEF0316463DB7 /* Pods_TButtonLoader_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		554EDF2944C8E142425956731D0732AD /* Pods-TButtonLoader_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B34CC1F2E6177F6B369A377BA97858 /* Build configuration list for PBXNativeTarget "Pods-TButtonLoader_Example" */;
+			buildPhases = (
+				340D0E02B09328D25EB9A682FDB6604D /* Headers */,
+				8605E666174D41C513B63C3000FC19AA /* Sources */,
+				AA1C966AB85FEB94F8A97A188ADC5546 /* Frameworks */,
+				05CD2681E2A7916E367AC7338104CBBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9A1D0C64D5BB8E8C707F6DC2CFBFB16 /* PBXTargetDependency */,
+			);
+			name = "Pods-TButtonLoader_Example";
+			productName = Pods_TButtonLoader_Example;
+			productReference = FB6C87C9E4AAF2DFBC263CA5D191E205 /* Pods_TButtonLoader_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE5D3D75D6EE8DFD9210141361C2FAF6 /* TButtonLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D289881F791E0962D754F901A038F5 /* Build configuration list for PBXNativeTarget "TButtonLoader" */;
+			buildPhases = (
+				F70438B2D287D26FDFC0D89AE5BC47A2 /* Headers */,
+				5E79DA1D4E3B439F97E44AF1E2FD6C65 /* Sources */,
+				D6FB131AE6EA7D375711B33CF8B38BBB /* Frameworks */,
+				35765212C66ACEFAC9C3B9A2FB75C631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TButtonLoader;
+			productName = TButtonLoader;
+			productReference = 97B4C40CE60E6FC231737CEBB898F817 /* TButtonLoader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FE5D3D75D6EE8DFD9210141361C2FAF6 = {
+						LastSwiftMigration = 1520;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 05714A2976811A981365A06845BB88DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				554EDF2944C8E142425956731D0732AD /* Pods-TButtonLoader_Example */,
+				36A89CBA732A2D6263FF6E7DA61BF911 /* Pods-TButtonLoader_Tests */,
+				FE5D3D75D6EE8DFD9210141361C2FAF6 /* TButtonLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05CD2681E2A7916E367AC7338104CBBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35765212C66ACEFAC9C3B9A2FB75C631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1F804775DC3D326988883EF9EAB398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57A213D1FC6FCBC2946267493F97ED99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570DDD7A80D60DB70170F65A79D07119 /* Pods-TButtonLoader_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E79DA1D4E3B439F97E44AF1E2FD6C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF07D2D22B94F997003331AE /* ButtonLoader.swift in Sources */,
+				73297D2447FF858CDFD5FADA31E37D64 /* TButtonLoader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8605E666174D41C513B63C3000FC19AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A75F60390FD5414C4617B9DC4877D30 /* Pods-TButtonLoader_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C94F94F498CDE19A7215F4D6D04CE899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TButtonLoader_Example";
+			target = 554EDF2944C8E142425956731D0732AD /* Pods-TButtonLoader_Example */;
+			targetProxy = 74ECF1671325EDC9909E1ED499E2B6E7 /* PBXContainerItemProxy */;
+		};
+		D9A1D0C64D5BB8E8C707F6DC2CFBFB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TButtonLoader;
+			target = FE5D3D75D6EE8DFD9210141361C2FAF6 /* TButtonLoader */;
+			targetProxy = 8E11A9BC3AC39EF2D6DA4C091B31A427 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CEB6753672FD434EBA5AC9CC2234E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA43FC8D58C364CB78265B551347D31 /* Pods-TButtonLoader_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TButtonLoader_Example/Pods-TButtonLoader_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TButtonLoader_Example/Pods-TButtonLoader_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C9D9E801A9F85D87A68DE1B620B50B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CEDEA4760FAC4677ABB7341A484852 /* TButtonLoader.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TButtonLoader/TButtonLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TButtonLoader/TButtonLoader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TButtonLoader/TButtonLoader.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = TButtonLoader;
+				PRODUCT_NAME = TButtonLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9FF825EE932CB0DD6DB17907C9D63C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA2070E32C7EC0363698FAB002A0645 /* Pods-TButtonLoader_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TButtonLoader_Example/Pods-TButtonLoader_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TButtonLoader_Example/Pods-TButtonLoader_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE78B4227A3ADBB362F15D65B866FF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A11929C11335DABF5ED9CAE1F98139 /* Pods-TButtonLoader_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TButtonLoader_Tests/Pods-TButtonLoader_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TButtonLoader_Tests/Pods-TButtonLoader_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E0F6183695ACFA06387B991DFCBD13D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3FDDA717F401CB6C1FA26F95B4DDB3 /* TButtonLoader.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TButtonLoader/TButtonLoader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TButtonLoader/TButtonLoader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TButtonLoader/TButtonLoader.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = TButtonLoader;
+				PRODUCT_NAME = TButtonLoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE49005F9958C161553F2C5C43D7AA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F2F31A9E2C244938E6E7C2AFE7B811 /* Pods-TButtonLoader_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TButtonLoader_Tests/Pods-TButtonLoader_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TButtonLoader_Tests/Pods-TButtonLoader_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34D289881F791E0962D754F901A038F5 /* Build configuration list for PBXNativeTarget "TButtonLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F6183695ACFA06387B991DFCBD13D3 /* Debug */,
+				6C9D9E801A9F85D87A68DE1B620B50B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38B34CC1F2E6177F6B369A377BA97858 /* Build configuration list for PBXNativeTarget "Pods-TButtonLoader_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF825EE932CB0DD6DB17907C9D63C1D /* Debug */,
+				1CEB6753672FD434EBA5AC9CC2234E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F87BA0F9E6DFEFDCCD620BC8BAF8C7 /* Build configuration list for PBXNativeTarget "Pods-TButtonLoader_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE78B4227A3ADBB362F15D65B866FF43 /* Debug */,
+				EE49005F9958C161553F2C5C43D7AA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

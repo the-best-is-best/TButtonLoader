@@ -1,0 +1,22 @@
+{
+  "name": "TButtonLoader",
+  "version": "0.1.0",
+  "summary": "A short description of TButtonLoader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/72160249/TButtonLoader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "72160249": "michelle.raouf@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/72160249/TButtonLoader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TButtonLoader/Classes/**/*"
+}

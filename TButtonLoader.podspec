@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TButtonLoader'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TButtonLoader.'
+  s.summary          = 'Create Button with loader'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "Create Button with loader"
 
-  s.homepage         = 'https://github.com/72160249/TButtonLoader'
+  s.homepage         = 'https://github.com/the-best-is-best/TButtonLoader'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '72160249' => 'michelle.raouf@outlook.com' }
-  s.source           = { :git => 'https://github.com/72160249/TButtonLoader.git', :tag => s.version.to_s }
+  s.author           = { 'the-best-is-best' => 'michelle.raouf@outlook.com' }
+  s.source           = { :git => 'https://github.com/the-best-is-best/TButtonLoader.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '14.0'
 
   s.source_files = 'TButtonLoader/Classes/**/*'
   
