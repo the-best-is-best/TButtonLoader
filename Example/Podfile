@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TButtonLoader_Example' do
+  pod 'TButtonLoader', :path => '../'
+
+  target 'TButtonLoader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
