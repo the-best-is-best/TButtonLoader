@@ -8,6 +8,21 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```swift 
+
+struct MainView: View {
+    @StateObject var viewModel = MainViewModel()
+
+    var body: some View {
+        ButtonLoader(
+            isLoading: $viewModel.loading, mainView: AnyView(Text("Click Me")), loadingView: AnyView(Text("Loading")), isEnabled: $viewModel.enabled) {
+                viewModel.click()
+            }
+    }
+}
+
+```
+
 ## Installation
 
 TButtonLoader is available through [CocoaPods](https://cocoapods.org). To install
